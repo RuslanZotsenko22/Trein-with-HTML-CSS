@@ -1,0 +1,128 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+
+  padding-left: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+address {
+  font-style: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Білий фон */
+  border-bottom: 2px solid #e5e5e5; /* Невелика нижня межа */
+}
+.conteiner {
+  width: 1220px;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центрування контейнера */
+}
+.header-list-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.header-title-span {
+  color: #2e2f42;
+}
+.header-list-title {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.header-list-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.header-list-list:hover,
+.header-list-list:focus {
+  color: aqua;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.8s ease;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.nav-list-info:hover,
+.nav-list-info:focus {
+  color: rgb(3, 60, 60);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.8s ease;
+}
+/* main */
+.conteiner-main {
+  height: 600px;
+
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./img/people-office\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-title {
+  padding-top: 182px;
+  padding-bottom: 48px;
+  width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.main-conteiner-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-button {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+}
